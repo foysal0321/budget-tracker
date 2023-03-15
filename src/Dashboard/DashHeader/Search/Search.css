@@ -1,0 +1,29 @@
+.total{
+    max-width: 870px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.total1{
+    width: 260px;
+    height: 180px;
+    background-color: rgba(14, 121, 10, 0.883);
+    text-align: center;
+    color: white;
+}
+.total1 h2{
+    margin-top: 60px;
+    font-size: 20px;
+}
+.total1 span{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.two{
+    background-color: lightseagreen;
+}
+.three{
+    background-color: darkslategray;
+}

@@ -1,0 +1,15 @@
+input{
+    padding: 6px;
+    margin: 5px;
+    background-color: rgb(244, 244, 244);
+}
+.list{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

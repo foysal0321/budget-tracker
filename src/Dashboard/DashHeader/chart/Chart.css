@@ -1,0 +1,38 @@
+
+.chart-header{
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.chart-info{
+    max-width: 400px;
+      margin-top: 120px;
+}
+.info1{
+  width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+.info1 p{
+    font-weight: 600;
+}
+.info1 span{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.chart{
+    width: 370px;
+    height: 340px;
+
+}
+.chart .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin-left: 28%;
+    margin-right: auto;
+}
