@@ -1,15 +1,20 @@
-input{
-    padding: 6px;
-    margin: 5px;
-    background-color: rgb(244, 244, 244);
-}
-.list{
-    max-width: 800px;
-    margin: 0 auto;
 
-}
-.form{
+.form-history{
+   width: 1000px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+}
+.history-section{
+   width: 570px;
+
+}
+.form-section{
+    width: 400px;
+
+}
+.form-section input{
+    padding: 10px;
+    margin: 15px;
+
 }

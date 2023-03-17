@@ -10,16 +10,18 @@ max-width: 500px;
 margin-top: 70px;
 }
 .infos h2{
-    font-size: 30px;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 700;  
+    color: rgb(59, 59, 59);
 }
 .infos p{
- font-size: 18px;
+ font-size: 16px;
+ letter-spacing: 1px;
+ color: rgb(50, 50, 50);
 }
 /* section2 */
-.section2{
 
-
-}
 .main2{
     max-width: 870px;
     display: flex;
@@ -35,7 +37,7 @@ margin-top: 70px;
     padding: 10px;
 }
 .one{
-    background-color: rgba(80, 194, 255, 0.321);
+    background-color: rgba(80, 194, 255, 0.232);
 }
 .item img{
     width: 50px;
@@ -64,9 +66,83 @@ margin-top: 70px;
 }
 .section3-info{
     max-width: 550px;
-    padding: 20px;
+    padding: 0 30px;
+    border: 1px solid rgba(17, 234, 82, 0.171);
 }
 .section3-info h2{
     font-size: 21px;
     font-weight: 500;;
+    letter-spacing: 2px;
+}
+.section3-info p{
+    color: rgb(122, 121, 121);
+    font-size: 16px;
+}
+/* section4 */
+.section4{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.60)), url('https://dissertationsage.co.uk/dsage/wp-content/uploads/2018/07/dissertation-topics-in-finance-and-investment.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.section4-infos{
+   max-width: 400px;
+    height: 300px;
+    border: 1px solid gray;
+    margin: 20px auto;
+    text-align: center;
+    padding: 13px;
+}
+.section4-infos h2{
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+.section4-infos p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+/* section5 */
+.section5{
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section5 img{
+    max-width: 500px;
+}
+.section5-infos{
+    max-width: 400px;
+    height: 320px;
+    border: 1px solid rgb(224, 224, 224);
+    margin: 20px auto;
+    text-align: center;
+    padding: 13px;
+}
+.section5-infos h2{
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+/* section6 */
+.section6{
+    width: 100%;
+    color: rgb(93, 91, 91);
+    height: 170px;
+    border: 1px solid rgba(128, 128, 128, 0.117);
+}
+.section6-info{
+max-width: 700px;
+text-align: center;
+margin: 0 auto;
+}
+.section6-info p{
+padding-top: 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 30px;
 }

@@ -1,23 +1,36 @@
 import React from 'react';
 
-const ItemList = ({income, index, remove}) => {
-    //console.log(income.price);
+const ItemList = ({item, setitem}) => {
 
-    let date = new Date(income.date)
-    let day = date.getDate()
-    let month = date.getMonth() + 1;
-    let year = date.getFullYear()
-
-    const removeHandle = (i)=>{
-        remove(i)
-    }
+    
     return (
         <div>
-            <div className="item">
-                <button onClick={removeHandle(index)}>x</button>
-                <div className="">price{income.desc}</div>
-                <div className="">{income.price}</div>
-                <div className="">{day + "/" + month + "/" + year}</div>
+             <h2 className='text-center text-xl font-semibold pb-2'>History</h2>
+            <div className="itemList">
+            <div className="overflow-x-auto">
+     <table className="table w-full">
+       <tbody>
+      <tr>
+        <td>Web Design</td>
+        <td>Saving</td>
+        <td>$ 500</td>
+        <td>15-3-2023</td>
+        <td>
+            <button className='btn btn-xs'>x</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Cemera</td>
+        <td>Expense</td>
+        <td>$ 300</td>
+        <td>16-3-2023</td>
+        <td>
+            <button className='btn btn-xs'>x</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
             </div>
         </div>
     );

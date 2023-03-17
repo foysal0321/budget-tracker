@@ -49,8 +49,7 @@ const Incomes = () => {
           .then(res=>res.json())
           .then(data=>{         
               if(data.acknowledged){
-                  alert('success')
-                  
+                  alert('success')                 
                   form.reset()                
               }
               else{
@@ -80,9 +79,9 @@ const Incomes = () => {
             <h2 className='text-center py-6 text-2xl'>Total Income  $<span className='text-green-500 font-medium'>{balance}</span></h2>
            <div className="list">
             <form onSubmit={addIncome} className='form'>
-                <input type="text" name='names' placeholder='Expense Description' />
-                <input type="text" name='price' placeholder='Price' />
-                <input type="date" name='date'  />
+                <input type="text" name='names' placeholder='Incomes Description' required />
+                <input type="text" name='price' placeholder='Price' required />
+                <input type="date" name='date' required />
                 <button className='btn btn-sm mt-2 rounded-none btn-warning'>Add</button>
             </form>
             <div className="overflow-x-auto mt-6">

@@ -6,7 +6,7 @@ import Rootreducer from "../reducers/Rootreducer";
 const { createStore, applyMiddleware } = require("redux");
 
 const store = (createStore(  
-    Rootreducer,
+  Rootreducer,
   composeWithDevTools(applyMiddleware(thunk))
    
 ))

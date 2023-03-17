@@ -10,6 +10,7 @@ import Saving from "../Dashboard/saving/Saving";
 import LogIn from "../log/LogIn";
 import SignUp from "../log/SignUp";
 import Main from "../lyout/Main";
+import PrivetRout from "./PrivetRout";
 
 export const router = createBrowserRouter([
     {
@@ -30,25 +31,25 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/dashbord',
-                element: <DashHeader />
+                element:<PrivetRout> <DashHeader /></PrivetRout> 
             },
             {
                 path: '/dashbord/myexpense',
-                element: <Myexpense />
+                element: <PrivetRout><Myexpense /></PrivetRout> 
             },
             {
                 path: '/dashbord/income',
-                element: <Incomes />
+                element: <PrivetRout><Incomes /></PrivetRout> 
             },
            
             {
                 path: '/dashbord/saving',
-                element: <Saving />
+                element: <PrivetRout><Saving /></PrivetRout> 
             },
            
             {
                 path: '/dashbord/invensment',
-                element: <Inventment />
+                element: <PrivetRout><Inventment /></PrivetRout> 
             },
            
             
